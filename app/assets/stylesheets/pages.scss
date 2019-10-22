@@ -1,0 +1,32 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.side-panel {
+    height: 100%;
+    flex-basis: 14%;
+    background-color: #4D394B;
+
+    .organization-container {
+        color: #fff;
+        padding: 1em 1em .5em 1em;
+        &:hover {
+            background-color: #3e313c;
+        }
+
+        h5 {
+            margin: 0px;
+        }
+    }
+}
+
+.main-panel {
+    flex-basis: 86%;
+}
+
+.user-list-container {
+    padding: 1em 1em .5em 1em;
+    color: rgb(202,196,201);
+    ul {
+        -webkit-padding-start: 1em;
+    }
+}
